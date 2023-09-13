@@ -14,7 +14,7 @@ __version__ = "0.1.0"
     ID_ERROR,
 ) = range(7)
 
-ERRORs = {
+ERRORS = {
     DIR_ERROR: "config directory error",
     FILE_ERROR: "config file error",
     DB_READ_ERROR: "database read error",
